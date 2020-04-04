@@ -136,20 +136,5 @@ namespace leave_management.vanhoof.family.Controllers
             }
             return RedirectToAction(nameof(Index));
         }
-
-        // POST: LeaveTypes/Delete/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, LeaveTypeVM model)
-        {
-            try
-            {
-                return View(model);
-            }
-            catch
-            {
-                return View(model);
-            }
-        }
     }
 }
