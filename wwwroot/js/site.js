@@ -3,5 +3,7 @@
 
 // Write your JavaScript code.
 $(document).ready(function () {
-    $('#tblData').DataTable();
+    $('#tblData').DataTable({
+        statesave: true 
+    });
 });
